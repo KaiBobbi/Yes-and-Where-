@@ -1,0 +1,141 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h6, p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(92, 156, 155);
+    align-items: center;
+
+}
+    
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 1300;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h4 {
+
+    color: black;
+    font-size:35px;
+}
+
+.faqs {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(200, 137, 43);;
+
+}
+
+.faqheading {
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(200, 137, 43);
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+.theaters {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.theaters img {
+    align-items: center;
+    padding-left: 170px;
+    justify-content: space-between;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people img {  
+    max-width: 25%;  
+    height: auto; 
+    margin: 16px;
+    align-items: center;
+}
+
+.faqheading {
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-style: italic;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+footer {
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: max;
+    height: 20px;
+}
